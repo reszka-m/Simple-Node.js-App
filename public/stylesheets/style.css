@@ -1,0 +1,109 @@
+html, body {
+  padding: 50px;
+  font: 14px "Roboto", Arial, sans-serif;
+  width: 50%;
+  margin: 0 auto;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  font-size: 50px;
+  color: #00B7FF;
+}
+
+.headers {
+  display: flex;
+  width: 100%;
+  background-color: #0d6e00;
+  overflow: hidden;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  justify-content: space-evenly;
+}
+
+.headers a {
+  float: left;
+  text-align: center;
+  width: 20%;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 34px;
+  text-decoration: none;
+}
+
+.headers a:hover {
+  font-size: max(3vw, 38px);
+}
+
+.container {
+  width: 57vw;
+  max-width: 360px;
+  margin-top: 50px;
+  position: relative;
+  left: calc(-85px + 7vw);
+}
+
+#inputField {
+  width: 45vw;
+  max-width: 300px;
+  height: 46px;
+  border: 1px solid black;
+  outline: none;
+  font-size: 25px;
+  vertical-align: middle;
+  border-radius: 10px;
+}
+
+#addToDo {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  vertical-align: middle;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.todos {
+  margin-top: 25px;
+}
+
+.paragraph-styling {
+  margin: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.instructions {
+  font-size: calc(10px + 1vw);
+  color: #0d6e00;
+  font-weight: bold;
+  position: relative;
+  top: 0px;
+  text-align: center;
+}
+
+
+#countdown {
+  margin-top: 50px;
+  width: 35vw;
+  font-size: 40px;
+  color: #0d6e00;
+  position: absolute;
+  left: 32vw;
+  top: 100px;
+  text-align: center;
+}
+
+.XImg {
+  height: auto;
+  width: 50vw;
+  margin-top: 100px;
+  position: absolute;
+  left: 25vw;
+  top: 200px;
+}
